@@ -24,6 +24,8 @@ Or, if you don't want to copy them, change the volume mapped in `start.sh`.
 ./start.sh
 ```
 
+In your web browser, navigate to https://remix.ethereum.org. Then, click **Connect to Localhost** to connect to your daemon.
+
 Press Ctrl-C to kill the server.
 
 ### Remove container before rebooting
