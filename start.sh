@@ -1,4 +1,4 @@
-if [ -$# -eq 0 ]; then
+if [ $# -eq 0 ]; then
   SRC=$PWD/contracts
 else
   SRC=$1
