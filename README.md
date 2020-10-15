@@ -11,12 +11,9 @@ Run remixd in a docker container with volume mapping to import local smart contr
 cp ~/my/contracts/* ./contracts
 ```
 
-Or, if you don't want to copy them, change the volume mapped in `start.sh`.
+Or, if you don't want to copy them, supply your source directory as an argument.
 ```sh
-# start.sh
-...
--v ~/my/contracts/:/usr/remix/source \
-...
+./start.sh ~/my/contracts/
 ```
 
 ### Run container
