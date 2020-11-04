@@ -12,7 +12,7 @@ cp ~/my/contracts/* ./contracts
 ./start.sh
 ```
 
-Or, if you don't want to copy them, supply your source directory as an argument.
+### Or, if you don't want to copy them, supply your source directory as an argument.
 ```sh
 ./start.sh ~/my/contracts/
 ```
